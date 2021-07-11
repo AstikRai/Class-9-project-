@@ -1,0 +1,30 @@
+function setup () {
+  creatCanvas (400,400);
+
+ red_btn = createButton("RED");
+ red_btn.position(100,50);
+ red_btn.mousePressed(red_btn);
+
+ green_btn = createButton("GREEN");
+ green_btn.position(250,50);
+ green_btn.mousePressed(green_btn);
+
+
+}
+
+ function red_btn(){
+
+ r = 255;
+ g = 0;
+ b = 0;
+
+ }
+
+ functiuon green_btn(){
+
+ r = 0;
+ g = 255;
+ b  = 0;
+
+
+ }
